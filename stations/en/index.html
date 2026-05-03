@@ -123,21 +123,6 @@
         <style type="text/css"></style>
     </head>
     <body>
-        <input type="checkbox" id="banner-toggle" />
-        <div class="banner">
-            <div class="banner-content">
-                The authenticated portion of the WeatheRate site is presently
-                down due to a server issue. We are currently working on a speedy
-                return to normal operations, but we do not have an ETA at this
-                time. Thank you for your patience.
-                <label
-                    for="banner-toggle"
-                    class="close-button"
-                    aria-label="Close banner"
-                    >×</label
-                >
-            </div>
-        </div>
         <div id="navbar">
             <!-- navigation bar with language selector -->
 
@@ -435,1078 +420,707 @@
                         id="certified-stations_wrapper"
                         class="dataTables_wrapper dt-bootstrap4 no-footer"
                     >
-                        <table
-                            id="certified-stations"
-                            class="table table-hover dataTable no-footer"
-                        >
-                            <thead class="table-primary">
-                                <tr>
-                                    <th
-                                        scope="col"
-                                        class="sorting sorting_asc"
-                                        tabindex="0"
-                                        aria-controls="certified-stations"
-                                        rowspan="1"
-                                        colspan="1"
-                                        style="width: 148.015625px"
-                                        aria-sort="ascending"
-                                        aria-label="Market Rank: activate to sort column descending"
-                                    >
-                                        Market Rank
-                                    </th>
-                                    <th
-                                        scope="col"
-                                        class="sorting"
-                                        tabindex="0"
-                                        aria-controls="certified-stations"
-                                        rowspan="1"
-                                        colspan="1"
-                                        style="width: 377.921875px"
-                                        aria-label="WeatheRated Market: activate to sort column ascending"
-                                    >
-                                        WeatheRated Market
-                                    </th>
-                                    <th
-                                        scope="col"
-                                        class="text-center sorting"
-                                        tabindex="0"
-                                        aria-controls="certified-stations"
-                                        rowspan="1"
-                                        colspan="1"
-                                        style="width: 224.515625px"
-                                        aria-label="Certified TV Station: activate to sort column ascending"
-                                    >
-                                        Certified TV Station
-                                    </th>
-                                    <th
-                                        scope="col"
-                                        class="text-center sorting"
-                                        tabindex="0"
-                                        aria-controls="certified-stations"
-                                        rowspan="1"
-                                        colspan="1"
-                                        style="width: 105.578125px"
-                                        aria-label="Network: activate to sort column ascending"
-                                    >
-                                        Network
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="odd">
-                                    <td class="sorting_1">1</td>
-                                    <td>New York City, NY</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbcnewyork.com/weather/"
-                                            target="_blank"
-                                            >WNBC</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">2</td>
-                                    <td>Los Angeles, CA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbclosangeles.com/weather/"
-                                            target="_blank"
-                                            >KNBC</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">3</td>
-                                    <td>Chicago, IL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbcchicago.com/weather/"
-                                            target="_blank"
-                                            >WMAQ</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">4</td>
-                                    <td>Philadelphia, PA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbcphiladelphia.com/weather/"
-                                            target="_blank"
-                                            >WCAU</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">5</td>
-                                    <td>Dallas / Ft. Worth, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbcdfw.com/weather/"
-                                            target="_blank"
-                                            >KXAS</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">6</td>
-                                    <td>
-                                        San Francisco / Oakland / San Jose, CA
-                                    </td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbcbayarea.com/weather/"
-                                            target="_blank"
-                                            >KNTV</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">7</td>
-                                    <td>Washington, D.C.</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbcwashington.com/weather/"
-                                            target="_blank"
-                                            >WRC</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">8</td>
-                                    <td>Houston, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://cw39.com/weather/"
-                                            target="_blank"
-                                            >KIAH</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CW</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">9</td>
-                                    <td>Boston, MA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbcboston.com/weather"
-                                            target="_blank"
-                                            >WBTS</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">10</td>
-                                    <td>Atlanta, GA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.cbs46.com/weather/"
-                                            target="_blank"
-                                            >WANF</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">16</td>
-                                    <td>Miami, FL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbcmiami.com/weather/"
-                                            target="_blank"
-                                            >WTVJ</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">17</td>
-                                    <td>Denver, CO</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://kdvr.com/weather/"
-                                            target="_blank"
-                                            >KDVR</a
-                                        >
-                                        /
-                                        <a
-                                            href="http://kdvr.com/weather/"
-                                            target="_blank"
-                                            >KWGN</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">FOX / CW</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">18</td>
-                                    <td>Orlando, FL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wesh.com/weather"
-                                            target="_blank"
-                                            >WESH</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">19</td>
-                                    <td>Cleveland, OH</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.cleveland19.com/weather/"
-                                            target="_blank"
-                                            >WOIO</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">20</td>
-                                    <td>Sacramento, CA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://fox40.com/weather/"
-                                            target="_blank"
-                                            >KTXL</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">FOX</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">22</td>
-                                    <td>Portland, OR</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.koin.com/weather/"
-                                            target="_blank"
-                                            >KOIN</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">24</td>
-                                    <td>Pittsburgh, PA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wtae.com/weather#"
-                                            target="_blank"
-                                            >WTAE</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">25</td>
-                                    <td>Indianapolis, IN</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://fox59.com/weather/"
-                                            target="_blank"
-                                            >WXIN</a
-                                        >
-                                        /
-                                        <a
-                                            href="https://cbs4indy.com/weather/"
-                                            target="_blank"
-                                            >WTTV</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">FOX / CBS</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">28</td>
-                                    <td>Nashville, TN</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wsmv.com/weather/"
-                                            target="_blank"
-                                            >WSMV</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">30</td>
-                                    <td>Salt Lake City, UT</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dayshourlylist/index.html?initjson=https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dcms/b7d37d4f-ac46-4777-890f-4a28bbcae078/live/init.js&amp;initjsonvar=initdata"
-                                            target="_blank"
-                                            >KTVX</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">31</td>
-                                    <td>San Antonio, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://news4sanantonio.com/weather"
-                                            target="_blank"
-                                            >WOAI</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">32</td>
-                                    <td>Kansas City, MO</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://fox4kc.com/weather/forecast/"
-                                            target="_blank"
-                                            >WDAF</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">FOX</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">33</td>
-                                    <td>Hartford, CT</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nbcconnecticut.com/weather/"
-                                            target="_blank"
-                                            >WVIT</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">34</td>
-                                    <td>Columbus, OH</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://nbc4i.com/category/weather/"
-                                            target="_blank"
-                                            >WCMH</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">36</td>
-                                    <td>West Palm Beach, FL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.wpbf.com/weather"
-                                            target="_blank"
-                                            >WPBF</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">37</td>
-                                    <td>Cincinnati, OH</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wlwt.com/weather"
-                                            target="_blank"
-                                            >WLWT</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">38</td>
-                                    <td>Greenville, SC</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wyff4.com/weather"
-                                            target="_blank"
-                                            >WYFF</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">39</td>
-                                    <td>Las Vegas, NV</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.lasvegasnow.com/weather"
-                                            target="_blank"
-                                            >KLAS</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">41</td>
-                                    <td>Jacksonville, FL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.firstcoastnews.com/weather"
-                                            target="_blank"
-                                            >WJXX</a
-                                        >
-                                        /
-                                        <a
-                                            href="https://www.firstcoastnews.com/weather"
-                                            target="_blank"
-                                            >WTLV</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC / NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">42</td>
-                                    <td>Norfolk, VA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.13newsnow.com/weather/"
-                                            target="_blank"
-                                            >WVEC</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">43</td>
-                                    <td>Oklahoma City, OK</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.koco.com/weather"
-                                            target="_blank"
-                                            >KOCO</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">44</td>
-                                    <td>Birmingham, AL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.wvtm13.com/weather"
-                                            target="_blank"
-                                            >WVTM</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">45</td>
-                                    <td>Grand Rapids, MI</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dayshourlylist/index.html?initjson=https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dcms/2a74a3b1-9de7-4887-aa6f-ab0ee68f02e9/live/init.js&amp;initjsonvar=initdata"
-                                            target="_blank"
-                                            >WOOD</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">46</td>
-                                    <td>Albuquerque, NM</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.koat.com/weather"
-                                            target="_blank"
-                                            >KOAT</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">47</td>
-                                    <td>Harrisburg, PA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://abc27.com/category/weather/"
-                                            target="_blank"
-                                            >WHTM</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">49</td>
-                                    <td>Greensboro, NC</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.wfmynews2.com/weather/"
-                                            target="_blank"
-                                            >WFMY</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">50</td>
-                                    <td>New Orleans, LA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wdsu.com/weather"
-                                            target="_blank"
-                                            >WDSU</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">51</td>
-                                    <td>Memphis, TN</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.localmemphis.com/weather"
-                                            target="_blank"
-                                            >WATN</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">52</td>
-                                    <td>Buffalo, NY</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wivb.com/weather"
-                                            target="_blank"
-                                            >WIVB</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">53</td>
-                                    <td>Ft. Myers, FL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://nbc-2.com/weather/"
-                                            target="_blank"
-                                            >WBBH</a
-                                        >
-                                        /
-                                        <a
-                                            href="https://www.abc-7.com/weather"
-                                            target="_blank"
-                                            >WZVN</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC / ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">54</td>
-                                    <td>Richmond, VA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.wric.com/weather"
-                                            target="_blank"
-                                            >WRIC</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">55</td>
-                                    <td>Fresno, CA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.yourcentralvalley.com/weather/ksee24-weather/"
-                                            target="_blank"
-                                            >KSEE</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">56</td>
-                                    <td>Providence, RI</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.wpri.com/weather"
-                                            target="_blank"
-                                            >WPRI</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">58</td>
-                                    <td>Tulsa, OK</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://ktul.com/weather"
-                                            target="_blank"
-                                            >KTUL</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">59</td>
-                                    <td>Albany, NY</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://news10.com/category/weather/"
-                                            target="_blank"
-                                            >WTEN</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">61</td>
-                                    <td>Knoxville, TN</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.wate.com/weather"
-                                            target="_blank"
-                                            >WATE</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">62</td>
-                                    <td>Little Rock, AR</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.kark.com/weather/"
-                                            target="_blank"
-                                            >KARK</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">63</td>
-                                    <td>Dayton, OH</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wdtn.com/weather/"
-                                            target="_blank"
-                                            >WDTN</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">68</td>
-                                    <td>Des Moines, IA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.weareiowa.com/weather"
-                                            target="_blank"
-                                            >WOI</a
-                                        >
-                                        /
-                                        <a
-                                            href="https://www.weareiowa.com/weather"
-                                            target="_blank"
-                                            >KCWI</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC / CW</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">69</td>
-                                    <td>Roanoke-Lynchburg, VA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wfxrtv.com/weather/"
-                                            target="_blank"
-                                            >WFXR</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">FOX</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">71</td>
-                                    <td>Omaha, NE</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.3newsnow.com/weather/daily-forecast"
-                                            target="_blank"
-                                            >KMTV</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">72</td>
-                                    <td>Wichita, KS</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.ksn.com/weather"
-                                            target="_blank"
-                                            >KSN</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">73</td>
-                                    <td>Springfield, MO</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://ozarksfirst.com/weather"
-                                            target="_blank"
-                                            >KOLR</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">74</td>
-                                    <td>Charleston, WV</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dayshourlylist/index.html?initjson=https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dcms/94c674a9-1778-40a0-bd84-edc347a4248f/live/init.js&amp;initjsonvar=initdata"
-                                            target="_blank"
-                                            >WOWK</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">76</td>
-                                    <td>Rochester, NY</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://13wham.com/weather"
-                                            target="_blank"
-                                            >WHAM</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">78</td>
-                                    <td>Huntsville, AL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.rocketcitynow.com/10-day"
-                                            target="_blank"
-                                            >WZDX</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">FOX</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">79</td>
-                                    <td>Portland, ME</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wmtw.com/article/map-room/2512447"
-                                            target="_blank"
-                                            >WMTW</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">81</td>
-                                    <td>Madison, WI</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.channel3000.com/weather/"
-                                            target="_blank"
-                                            >WISC</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">82</td>
-                                    <td>Waco, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.centexproud.com/weather"
-                                            target="_blank"
-                                            >KWKT</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">FOX</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">83</td>
-                                    <td>McAllen, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dayshourlylist/index.html?initjson=https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dcms/53b25af5-8899-4fa5-a4a9-36de8d898465/live/init.js&amp;initjsonvar=initdata"
-                                            target="_blank"
-                                            >KVEO</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">86</td>
-                                    <td>Shreveport, LA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.arklatexhomepage.com/weather/forecast/"
-                                            target="_blank"
-                                            >KTAL</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">87</td>
-                                    <td>Syracuse, NY</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="http://www.localsyr.com/weather"
-                                            target="_blank"
-                                            >WSYR</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">88</td>
-                                    <td>Champaign-Urbana, IL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wcia.com/weather/"
-                                            target="_blank"
-                                            >WCIA</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">CBS</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">89</td>
-                                    <td>Savannah, GA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wjcl.com/weather"
-                                            target="_blank"
-                                            >WJCL</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">91</td>
-                                    <td>Charleston, SC</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://abcnews4.com/weather"
-                                            target="_blank"
-                                            >WCIV</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">94</td>
-                                    <td>Jackson, MS</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wapt.com/weather"
-                                            target="_blank"
-                                            >WAPT</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">ABC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">95</td>
-                                    <td>Myrtle Beach, SC</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.wmbfnews.com/weather/"
-                                            target="_blank"
-                                            >WMBF</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">97</td>
-                                    <td>Fort Smith, AR</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.nwahomepage.com/weather/"
-                                            target="_blank"
-                                            >KNWA</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">98</td>
-                                    <td>Burlington, VT</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.mynbc5.com/weather#"
-                                            target="_blank"
-                                            >WPTZ</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">100</td>
-                                    <td>Greenville, NC</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.witn.com/weather/"
-                                            target="_blank"
-                                            >WITN</a
-                                        >
-                                    </td>
-
-                                    <td class="text-center">NBC</td>
-                                </tr>
-                            </tbody>
-                        </table>
+<table id="certified-stations" class="table table-hover dataTable no-footer">
+            <thead class="table-primary">
+                <tr><th scope="col" class="sorting sorting_asc" tabindex="0" aria-controls="certified-stations" rowspan="1" colspan="1" style="width: 142.867px;" aria-label="Market Rank: activate to sort column descending" aria-sort="ascending">Market Rank</th><th scope="col" class="sorting" tabindex="0" aria-controls="certified-stations" rowspan="1" colspan="1" style="width: 388.733px;" aria-label="WeatheRated Market: activate to sort column ascending">WeatheRated Market</th><th scope="col" class="text-center sorting" tabindex="0" aria-controls="certified-stations" rowspan="1" colspan="1" style="width: 217.1px;" aria-label="Certified TV Station: activate to sort column ascending">Certified TV Station</th><th scope="col" class="text-center sorting" tabindex="0" aria-controls="certified-stations" rowspan="1" colspan="1" style="width: 101.3px;" aria-label="Network: activate to sort column ascending">Network</th></tr>
+            </thead>
+            <tbody>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            <tr class="odd">
+                        
+                            <td class="sorting_1">1</td>
+                        <td>New York City, NY</td>
+                        
+                        <td class="text-center"><a href="https://www.nbcnewyork.com/weather/" target="_blank">WNBC</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">2</td>
+                        <td>Los Angeles, CA</td>
+                        
+                        <td class="text-center"><a href="https://www.nbclosangeles.com/weather/" target="_blank">KNBC</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">3</td>
+                        <td>Chicago, IL</td>
+                        
+                        <td class="text-center"><a href="https://www.nbcchicago.com/weather/" target="_blank">WMAQ</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">4</td>
+                        <td>Philadelphia, PA</td>
+                        
+                        <td class="text-center"><a href="https://www.nbcphiladelphia.com/weather/" target="_blank">WCAU</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">5</td>
+                        <td>Dallas / Ft. Worth, TX</td>
+                        
+                        <td class="text-center"><a href="https://www.nbcdfw.com/weather/" target="_blank">KXAS</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">6</td>
+                        <td>San Francisco / Oakland / San Jose, CA</td>
+                        
+                        <td class="text-center"><a href="https://www.nbcbayarea.com/weather/" target="_blank">KNTV</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">8</td>
+                        <td>Houston, TX</td>
+                        
+                        <td class="text-center"><a href="https://cw39.com/weather/" target="_blank">KIAH</a></td>
+                        
+                            <td class="text-center">CW</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">10</td>
+                        <td>Atlanta, GA</td>
+                        
+                        <td class="text-center"><a href="https://www.cbs46.com/weather/" target="_blank">WANF</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">16</td>
+                        <td>Miami, FL</td>
+                        
+                        <td class="text-center"><a href="https://www.nbcmiami.com/weather/" target="_blank">WTVJ</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">17</td>
+                        <td>Denver, CO</td>
+                        
+                        <td class="text-center"><a href="https://kdvr.com/weather/" target="_blank">KDVR</a> / <a href="http://kdvr.com/weather/" target="_blank">KWGN</a></td>
+                        
+                            <td class="text-center">FOX / CW</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">18</td>
+                        <td>Orlando, FL</td>
+                        
+                        <td class="text-center"><a href="https://www.wesh.com/weather" target="_blank">WESH</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">19</td>
+                        <td>Cleveland, OH</td>
+                        
+                        <td class="text-center"><a href="https://www.cleveland19.com/weather/" target="_blank">WOIO</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">20</td>
+                        <td>Sacramento, CA</td>
+                        
+                        <td class="text-center"><a href="https://fox40.com/weather/" target="_blank">KTXL</a></td>
+                        
+                            <td class="text-center">FOX</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">22</td>
+                        <td>Portland, OR</td>
+                        
+                        <td class="text-center"><a href="https://www.koin.com/weather/" target="_blank">KOIN</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">24</td>
+                        <td>Pittsburgh, PA</td>
+                        
+                        <td class="text-center"><a href="https://www.wtae.com/weather#" target="_blank">WTAE</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">28</td>
+                        <td>Nashville, TN</td>
+                        
+                        <td class="text-center"><a href="https://www.wsmv.com/weather/" target="_blank">WSMV</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">31</td>
+                        <td>San Antonio, TX</td>
+                        
+                        <td class="text-center"><a href="https://news4sanantonio.com/weather" target="_blank">WOAI</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">32</td>
+                        <td>Kansas City, MO</td>
+                        
+                        <td class="text-center"><a href="https://fox4kc.com/weather/forecast/" target="_blank">WDAF</a></td>
+                        
+                            <td class="text-center">FOX</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">34</td>
+                        <td>Columbus, OH</td>
+                        
+                        <td class="text-center"><a href="http://nbc4i.com/category/weather/" target="_blank">WCMH</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">36</td>
+                        <td>West Palm Beach, FL</td>
+                        
+                        <td class="text-center"><a href="http://www.wpbf.com/weather" target="_blank">WPBF</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">37</td>
+                        <td>Cincinnati, OH</td>
+                        
+                        <td class="text-center"><a href="https://www.wlwt.com/weather" target="_blank">WLWT</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">38</td>
+                        <td>Greenville, SC</td>
+                        
+                        <td class="text-center"><a href="https://www.wyff4.com/weather" target="_blank">WYFF</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">39</td>
+                        <td>Las Vegas, NV</td>
+                        
+                        <td class="text-center"><a href="http://www.lasvegasnow.com/weather" target="_blank">KLAS</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">41</td>
+                        <td>Jacksonville, FL</td>
+                        
+                        <td class="text-center"><a href="https://www.firstcoastnews.com/weather" target="_blank">WJXX</a> / <a href="https://www.firstcoastnews.com/weather" target="_blank">WTLV</a></td>
+                        
+                            <td class="text-center">ABC / NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">42</td>
+                        <td>Norfolk, VA</td>
+                        
+                        <td class="text-center"><a href="http://www.13newsnow.com/weather/" target="_blank">WVEC</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">43</td>
+                        <td>Oklahoma City, OK</td>
+                        
+                        <td class="text-center"><a href="http://www.koco.com/weather" target="_blank">KOCO</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">44</td>
+                        <td>Birmingham, AL</td>
+                        
+                        <td class="text-center"><a href="http://www.wvtm13.com/weather" target="_blank">WVTM</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">45</td>
+                        <td>Grand Rapids, MI</td>
+                        
+                        <td class="text-center"><a href="https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dayshourlylist/index.html?initjson=https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dcms/2a74a3b1-9de7-4887-aa6f-ab0ee68f02e9/live/init.js&amp;initjsonvar=initdata" target="_blank">WOOD</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">46</td>
+                        <td>Albuquerque, NM</td>
+                        
+                        <td class="text-center"><a href="http://www.koat.com/weather" target="_blank">KOAT</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">49</td>
+                        <td>Greensboro, NC</td>
+                        
+                        <td class="text-center"><a href="http://www.wfmynews2.com/weather/" target="_blank">WFMY</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">50</td>
+                        <td>New Orleans, LA</td>
+                        
+                        <td class="text-center"><a href="https://www.wdsu.com/weather" target="_blank">WDSU</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">51</td>
+                        <td>Memphis, TN</td>
+                        
+                        <td class="text-center"><a href="http://www.localmemphis.com/weather" target="_blank">WATN</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">52</td>
+                        <td>Buffalo, NY</td>
+                        
+                        <td class="text-center"><a href="https://www.wivb.com/weather" target="_blank">WIVB</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">53</td>
+                        <td>Ft. Myers, FL</td>
+                        
+                        <td class="text-center"><a href="https://nbc-2.com/weather/" target="_blank">WBBH</a> / <a href="https://www.abc-7.com/weather" target="_blank">WZVN</a></td>
+                        
+                            <td class="text-center">NBC / ABC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">54</td>
+                        <td>Richmond, VA</td>
+                        
+                        <td class="text-center"><a href="http://www.wric.com/weather" target="_blank">WRIC</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">55</td>
+                        <td>Fresno, CA</td>
+                        
+                        <td class="text-center"><a href="https://www.yourcentralvalley.com/weather/ksee24-weather/" target="_blank">KSEE</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">56</td>
+                        <td>Providence, RI</td>
+                        
+                        <td class="text-center"><a href="http://www.wpri.com/weather" target="_blank">WPRI</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">59</td>
+                        <td>Albany, NY</td>
+                        
+                        <td class="text-center"><a href="http://news10.com/category/weather/" target="_blank">WTEN</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">61</td>
+                        <td>Knoxville, TN</td>
+                        
+                        <td class="text-center"><a href="http://www.wate.com/weather" target="_blank">WATE</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">62</td>
+                        <td>Little Rock, AR</td>
+                        
+                        <td class="text-center"><a href="https://www.kark.com/weather/" target="_blank">KARK</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">63</td>
+                        <td>Dayton, OH</td>
+                        
+                        <td class="text-center"><a href="https://www.wdtn.com/weather/" target="_blank">WDTN</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">68</td>
+                        <td>Des Moines, IA</td>
+                        
+                        <td class="text-center"><a href="https://www.kcci.com/weather#" target="_blank">KCCI</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">69</td>
+                        <td>Roanoke-Lynchburg, VA</td>
+                        
+                        <td class="text-center"><a href="https://www.wfxrtv.com/weather/" target="_blank">WFXR</a></td>
+                        
+                            <td class="text-center">FOX</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">72</td>
+                        <td>Wichita, KS</td>
+                        
+                        <td class="text-center"><a href="https://www.ksn.com/weather" target="_blank">KSN</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">73</td>
+                        <td>Springfield, MO</td>
+                        
+                        <td class="text-center"><a href="http://ozarksfirst.com/weather" target="_blank">KOLR</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">74</td>
+                        <td>Charleston, WV</td>
+                        
+                        <td class="text-center"><a href="https://www.wsaz.com/weather" target="_blank">WSAZ</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">76</td>
+                        <td>Rochester, NY</td>
+                        
+                        <td class="text-center"><a href="http://13wham.com/weather" target="_blank">WHAM</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">78</td>
+                        <td>Huntsville, AL</td>
+                        
+                        <td class="text-center"><a href="https://www.rocketcitynow.com/10-day" target="_blank">WZDX</a></td>
+                        
+                            <td class="text-center">FOX</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">79</td>
+                        <td>Portland, ME</td>
+                        
+                        <td class="text-center"><a href="https://www.wmtw.com/article/map-room/2512447" target="_blank">WMTW</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">81</td>
+                        <td>Madison, WI</td>
+                        
+                        <td class="text-center"><a href="https://www.channel3000.com/weather/" target="_blank">WISC</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">82</td>
+                        <td>Waco, TX</td>
+                        
+                        <td class="text-center"><a href="https://www.centexproud.com/weather" target="_blank">KWKT</a></td>
+                        
+                            <td class="text-center">FOX</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">83</td>
+                        <td>McAllen, TX</td>
+                        
+                        <td class="text-center"><a href="https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dayshourlylist/index.html?initjson=https://staticbaronwebapps.velocityweather.com/digitial_wx/widgets/dcms/53b25af5-8899-4fa5-a4a9-36de8d898465/live/init.js&amp;initjsonvar=initdata" target="_blank">KVEO</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">86</td>
+                        <td>Shreveport, LA</td>
+                        
+                        <td class="text-center"><a href="https://www.arklatexhomepage.com/weather/forecast/" target="_blank">KTAL</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">87</td>
+                        <td>Syracuse, NY</td>
+                        
+                        <td class="text-center"><a href="http://www.localsyr.com/weather" target="_blank">WSYR</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">88</td>
+                        <td>Champaign-Urbana, IL</td>
+                        
+                        <td class="text-center"><a href="https://www.wcia.com/weather/" target="_blank">WCIA</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">89</td>
+                        <td>Savannah, GA</td>
+                        
+                        <td class="text-center"><a href="https://www.wjcl.com/weather" target="_blank">WJCL</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">91</td>
+                        <td>Charleston, SC</td>
+                        
+                        <td class="text-center"><a href="https://abcnews4.com/weather" target="_blank">WCIV</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">94</td>
+                        <td>Jackson, MS</td>
+                        
+                        <td class="text-center"><a href="https://www.wapt.com/weather" target="_blank">WAPT</a></td>
+                        
+                            <td class="text-center">ABC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">95</td>
+                        <td>Myrtle Beach, SC</td>
+                        
+                        <td class="text-center"><a href="https://www.wmbfnews.com/weather/" target="_blank">WMBF</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">96</td>
+                        <td>Baton Rogue, LA</td>
+                        
+                        <td class="text-center"><a href="https://www.wafb.com/weather/" target="_blank">WAFB</a></td>
+                        
+                            <td class="text-center">CBS</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">97</td>
+                        <td>Fort Smith, AR</td>
+                        
+                        <td class="text-center"><a href="https://www.nwahomepage.com/weather/" target="_blank">KNWA</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">98</td>
+                        <td>Burlington, VT</td>
+                        
+                        <td class="text-center"><a href="https://www.mynbc5.com/weather#" target="_blank">WPTZ</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">100</td>
+                        <td>Greenville, NC</td>
+                        
+                        <td class="text-center"><a href="https://www.witn.com/weather/" target="_blank">WITN</a></td>
+                        
+                            <td class="text-center">NBC</td>
+                        
+                    </tr></tbody>
+        </table>
                     </div>
                 </div>
 
