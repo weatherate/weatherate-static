@@ -123,21 +123,6 @@
         <style type="text/css"></style>
     </head>
     <body>
-        <input type="checkbox" id="banner-toggle" />
-        <div class="banner">
-            <div class="banner-content">
-                The authenticated portion of the WeatheRate site is presently
-                down due to a server issue. We are currently working on a speedy
-                return to normal operations, but we do not have an ETA at this
-                time. Thank you for your patience.
-                <label
-                    for="banner-toggle"
-                    class="close-button"
-                    aria-label="Close banner"
-                    >×</label
-                >
-            </div>
-        </div>
         <div id="navbar">
             <!-- navigation bar with language selector -->
 
@@ -429,320 +414,212 @@
                         id="certified-stations_wrapper"
                         class="dataTables_wrapper dt-bootstrap4 no-footer"
                     >
-                        <table
-                            id="certified-stations"
-                            class="table table-hover dataTable no-footer"
-                        >
-                            <thead class="table-primary">
-                                <tr>
-                                    <th
-                                        scope="col"
-                                        class="sorting sorting_asc"
-                                        tabindex="0"
-                                        aria-controls="certified-stations"
-                                        rowspan="1"
-                                        colspan="1"
-                                        style="width: 180.015625px"
-                                        aria-sort="ascending"
-                                        aria-label="Market Rank: activate to sort column descending"
-                                    >
-                                        Market Rank
-                                    </th>
-                                    <th
-                                        scope="col"
-                                        class="sorting"
-                                        tabindex="0"
-                                        aria-controls="certified-stations"
-                                        rowspan="1"
-                                        colspan="1"
-                                        style="width: 448.625px"
-                                        aria-label="WeatheRated Market: activate to sort column ascending"
-                                    >
-                                        WeatheRated Market
-                                    </th>
-                                    <th
-                                        scope="col"
-                                        class="text-center sorting"
-                                        tabindex="0"
-                                        aria-controls="certified-stations"
-                                        rowspan="1"
-                                        colspan="1"
-                                        style="width: 269.390625px"
-                                        aria-label="Certified TV Station: activate to sort column ascending"
-                                    >
-                                        Certified TV Station
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="odd">
-                                    <td class="sorting_1">1</td>
-                                    <td>New York City, NY</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo47.com/el-tiempo/?zipCode=10003"
-                                            target="_blank"
-                                            >WNJU</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">2</td>
-                                    <td>Los Angeles, CA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo52.com/el-tiempo/"
-                                            target="_blank"
-                                            >KVEA</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">3</td>
-                                    <td>Chicago, IL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundochicago.com/el-tiempo/?zipCode=60666"
-                                            target="_blank"
-                                            >WSNS</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">4</td>
-                                    <td>Philadelphia, PA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo62.com/el-tiempo/?zipCode="
-                                            target="_blank"
-                                            >WWSI</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">5</td>
-                                    <td>Dallas / Ft. Worth, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundodallas.com/el-tiempo/?zipCode=75235"
-                                            target="_blank"
-                                            >KXTX</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">6</td>
-                                    <td>
-                                        San Francisco / Oakland / San Jose, CA
-                                    </td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundoareadelabahia.com/el-tiempo/"
-                                            target="_blank"
-                                            >KSTS</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">7</td>
-                                    <td>Washington, D.C.</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundowashingtondc.com/el-tiempo/?zipCode=20001"
-                                            target="_blank"
-                                            >WZDC</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">8</td>
-                                    <td>Houston, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundohouston.com/el-tiempo/?zipCode=77032"
-                                            target="_blank"
-                                            >KTMD</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">9</td>
-                                    <td>Boston, MA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundonuevainglaterra.com/el-tiempo/?zipCode=02201"
-                                            target="_blank"
-                                            >WNEU</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">11</td>
-                                    <td>Phoenix, AZ</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundoarizona.com/el-tiempo/?zipCode=85034"
-                                            target="_blank"
-                                            >KTAZ</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">12</td>
-                                    <td>Tampa, FL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo49.com/el-tiempo/?zipCode=33607"
-                                            target="_blank"
-                                            >WRMD</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">16</td>
-                                    <td>Miami, FL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo51.com/el-tiempo/?zipCode=33142"
-                                            target="_blank"
-                                            >WSCV</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">17</td>
-                                    <td>Denver, CO</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundodenver.com/el-tiempo/?zipCode=80249"
-                                            target="_blank"
-                                            >KDEN</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">18</td>
-                                    <td>Orlando, FL</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo31.com/el-tiempo/?zipCode="
-                                            target="_blank"
-                                            >WTMO</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">20</td>
-                                    <td>Sacramento, CA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo33.com/el-tiempo/"
-                                            target="_blank"
-                                            >KCSO</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">29</td>
-                                    <td>San Diego, CA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo20.com/el-tiempo/?zipCode=92101"
-                                            target="_blank"
-                                            >KUAN</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">31</td>
-                                    <td>San Antonio, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundosanantonio.com/el-tiempo/?zipCode=78216"
-                                            target="_blank"
-                                            >KVDA</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">39</td>
-                                    <td>Las Vegas, NV</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundolasvegas.com/el-tiempo/?zipCode=89119"
-                                            target="_blank"
-                                            >KBLR</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">55</td>
-                                    <td>Fresno, CA</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundofresno.com/el-tiempo/"
-                                            target="_blank"
-                                            >KNSO</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">83</td>
-                                    <td>McAllen, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo40.com/el-tiempo/?zipCode=78501"
-                                            target="_blank"
-                                            >KTLM</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="odd">
-                                    <td class="sorting_1">93</td>
-                                    <td>El Paso, TX</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundo48elpaso.com/el-tiempo/?zipCode=79925"
-                                            target="_blank"
-                                            >KTDO</a
-                                        >
-                                    </td>
-                                </tr>
-                                <tr class="even">
-                                    <td class="sorting_1">101</td>
-                                    <td>San Juan, PR</td>
-
-                                    <td class="text-center">
-                                        <a
-                                            href="https://www.telemundopr.com/el-tiempo/"
-                                            target="_blank"
-                                            >WKAQ</a
-                                        >
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                      <table id="certified-stations" class="table table-hover dataTable no-footer">
+            <thead class="table-primary">
+                <tr><th scope="col" class="sorting sorting_asc" tabindex="0" aria-controls="certified-stations" rowspan="1" colspan="1" style="width: 173.567px;" aria-sort="ascending" aria-label="Market Rank: activate to sort column descending">Market Rank</th><th scope="col" class="sorting" tabindex="0" aria-controls="certified-stations" rowspan="1" colspan="1" style="width: 459.917px;" aria-label="WeatheRated Market: activate to sort column ascending">WeatheRated Market</th><th scope="col" class="text-center sorting" tabindex="0" aria-controls="certified-stations" rowspan="1" colspan="1" style="width: 260.017px;" aria-label="Certified TV Station: activate to sort column ascending">Certified TV Station</th></tr>
+            </thead>
+            <tbody>
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            <tr class="odd">
+                        
+                            <td class="sorting_1">1</td>
+                        <td>New York City, NY</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo47.com/el-tiempo/?zipCode=10003" target="_blank">WNJU</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">2</td>
+                        <td>Los Angeles, CA</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo52.com/el-tiempo/" target="_blank">KVEA</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">3</td>
+                        <td>Chicago, IL</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundochicago.com/el-tiempo/?zipCode=60666" target="_blank">WSNS</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">4</td>
+                        <td>Philadelphia, PA</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo62.com/el-tiempo/?zipCode=" target="_blank">WWSI</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">5</td>
+                        <td>Dallas / Ft. Worth, TX</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundodallas.com/el-tiempo/?zipCode=75235" target="_blank">KXTX</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">6</td>
+                        <td>San Francisco / Oakland / San Jose, CA</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundoareadelabahia.com/el-tiempo/" target="_blank">KSTS</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">7</td>
+                        <td>Washington, D.C.</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundowashingtondc.com/el-tiempo/?zipCode=20001" target="_blank">WZDC</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">8</td>
+                        <td>Houston, TX</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundohouston.com/el-tiempo/?zipCode=77032" target="_blank">KTMD</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">9</td>
+                        <td>Boston, MA</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundonuevainglaterra.com/el-tiempo/?zipCode=02201" target="_blank">WNEU</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">11</td>
+                        <td>Phoenix, AZ</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundoarizona.com/el-tiempo/?zipCode=85034" target="_blank">KTAZ</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">12</td>
+                        <td>Tampa, FL</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo49.com/el-tiempo/?zipCode=33607" target="_blank">WRMD</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">16</td>
+                        <td>Miami, FL</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo51.com/el-tiempo/?zipCode=33142" target="_blank">WSCV</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">17</td>
+                        <td>Denver, CO</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundodenver.com/el-tiempo/?zipCode=80249" target="_blank">KDEN</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">18</td>
+                        <td>Orlando, FL</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo31.com/el-tiempo/?zipCode=" target="_blank">WTMO</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">20</td>
+                        <td>Sacramento, CA</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo33.com/el-tiempo/" target="_blank">KCSO</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">29</td>
+                        <td>San Diego, CA</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo20.com/el-tiempo/?zipCode=92101" target="_blank">KUAN</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">31</td>
+                        <td>San Antonio, TX</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundosanantonio.com/el-tiempo/?zipCode=78216" target="_blank">KVDA</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">39</td>
+                        <td>Las Vegas, NV</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundolasvegas.com/el-tiempo/?zipCode=89119" target="_blank">KBLR</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">55</td>
+                        <td>Fresno, CA</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundofresno.com/el-tiempo/" target="_blank">KNSO</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">83</td>
+                        <td>McAllen, TX</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo40.com/el-tiempo/?zipCode=78501" target="_blank">KTLM</a></td>
+                        
+                    </tr><tr class="odd">
+                        
+                            <td class="sorting_1">93</td>
+                        <td>El Paso, TX</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundo48elpaso.com/el-tiempo/?zipCode=79925" target="_blank">KTDO</a></td>
+                        
+                    </tr><tr class="even">
+                        
+                            <td class="sorting_1">101</td>
+                        <td>San Juan, PR</td>
+                        
+                        <td class="text-center"><a href="https://www.telemundopr.com/el-tiempo/" target="_blank">WKAQ</a></td>
+                        
+                    </tr></tbody>
+        </table>
                     </div>
                 </div>
 
