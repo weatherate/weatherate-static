@@ -720,7 +720,7 @@ var simplemaps_usmap_mapdata={
         "label_hover_color": "",
         "label_size": "",
         "location_description": "",
-        "location_image_url": "/static/weatherate/images/weatherate_pin.svg",
+        "location_image_url": "../img/weatherate_pin.svg",
         "location_opacity": ".8",
         "location_size": "48",
         "location_type": "image",
